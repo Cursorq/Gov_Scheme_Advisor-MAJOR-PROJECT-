@@ -1,16 +1,30 @@
-# React + Vite
+# Government Scheme Advisor — Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small React interface for the Phase 1 project evaluation. The current screen demonstrates the intended citizen journey: describe a situation, review the details the system picked up, and explore scheme recommendations.
 
-Currently, two official plugins are available:
+## Project structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```text
+frontend/
+├── public/             Static files served as-is
+├── src/
+│   ├── assets/         Images and other imported assets
+│   ├── App.jsx         Main page and its local interactions
+│   ├── i18n.js         English and Hindi interface text
+│   ├── index.css       Global styles and responsive layout
+│   └── main.jsx        React entry point
+├── index.html          Page metadata and mount element
+├── package.json        Dependencies and development scripts
+└── vite.config.js      Vite configuration
+```
 
-## React Compiler
+## Run locally
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+From this directory:
 
-## Expanding the ESLint configuration
+```bash
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The language menu switches between English and Hindi. Scheme results and profile details shown in this Phase 1 screen are sample UI; backend API integration is planned for a later project phase.
