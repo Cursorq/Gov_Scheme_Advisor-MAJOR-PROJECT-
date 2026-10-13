@@ -1,0 +1,533 @@
+# FICTIONAL TEST DATA — NOT A REAL GOVERNMENT SCHEME
+
+**Dataset:** EduAssist Fictional Grant Program (EFGP)  
+**Version:** 1.0  
+**Purpose:** Testing a Retrieval-Augmented Generation (RAG) pipeline  
+**Status:** Entirely fictional. Not valid government guidance.
+
+This document describes an imaginary educational assistance program in the fictional nation of Exemplia. The program, currency, eligibility criteria, benefits, documents, portal, authorities, deadlines, and contact details are invented for software testing. They must never be interpreted as actual government policy.
+
+The fictional currency used throughout this dataset is the Fictional Currency Unit (FCU).
+
+# 1. SCHEME OVERVIEW
+
+## 1.1 Official fictional name
+
+The fictional program is called the EduAssist Fictional Grant Program, abbreviated as EFGP. Its full dataset designation is “EduAssist Fictional Grant Program (EFGP) — Test Dataset v1.0.”
+
+## 1.2 Purpose
+
+EFGP is a hypothetical financial assistance initiative designed to support students from economically disadvantaged households who are pursuing higher education or recognized vocational training.
+
+Its fictional objectives are to reduce student dropout rates, ease tuition-related financial pressure, support access to study materials, assist with living expenses, and encourage continued academic participation.
+
+The program combines tuition assistance, a monthly living stipend, a study material allowance, examination fee reimbursement, mentorship access, and an internet subsidy.
+
+## 1.3 Intended beneficiaries
+
+The fictional program is intended for eligible students enrolled in either:
+- An accredited undergraduate degree program.
+- A government-recognized vocational training course.
+
+Applicants must also satisfy the age, household income, citizenship, academic standing, and other eligibility conditions defined in this dataset.
+
+## 1.4 Important exclusions
+
+EFGP is fictional and has no real application portal or administering authority.
+
+The program does not provide laptops, smartphones, tablets, or other physical hardware. Students are responsible for obtaining any hardware they need for their studies.
+
+The dataset does not establish a real-world legal entitlement, funding allocation, application opportunity, or payment guarantee.
+
+# 2. ELIGIBILITY CONDITIONS
+
+## 2.1 General eligibility rule
+
+An applicant must meet all mandatory eligibility conditions to qualify for the fictional EFGP grant. Meeting only some conditions does not establish eligibility.
+
+The first-generation learner preference is a prioritization factor, not a mandatory eligibility condition.
+
+## 2.2 Age requirement
+
+An applicant must be between 17 and 30 years old at the time of application submission.
+
+For this dataset, the age range is inclusive: an applicant aged 17 or 30 satisfies the stated age criterion. An applicant younger than 17 or older than 30 does not satisfy it.
+
+The dataset does not specify special age relaxations, exceptions, or alternative age calculation rules.
+
+## 2.3 Enrollment requirement
+
+The applicant must currently be enrolled in one of the following:
+1. An accredited undergraduate degree program.
+2. A government-recognized vocational training course.
+
+The dataset does not establish eligibility for school-level education, postgraduate programs, doctoral studies, informal training, or unrecognized courses. These cases should be treated as unspecified rather than automatically approved or rejected.
+
+Proof of enrollment must be provided through an official institutional letter or certificate that confirms current enrollment and course details.
+
+## 2.4 Household income requirement
+
+The combined annual gross income of the applicant's household must not exceed 250,000 FCU.
+
+The maximum permitted income is inclusive. A household income of exactly 250,000 FCU satisfies the stated income condition. An income greater than 250,000 FCU does not.
+
+The threshold concerns combined annual gross household income, not merely the applicant's personal earnings.
+
+The dataset does not define which household members must be counted, how irregular income should be calculated, or how income in a different currency should be converted. Those situations require additional rules that are not present in this test dataset.
+
+An income certificate issued within the previous six months is required as evidence.
+
+## 2.5 Citizenship requirement
+
+The applicant must be a citizen of the fictional nation of Exemplia.
+
+Residence in Exemplia alone is not stated to be sufficient. The dataset does not establish eligibility for foreign citizens, permanent residents, temporary residents, or dual citizens.
+
+A citizenship document or passport issued by the fictional government of Exemplia is listed as acceptable citizenship evidence.
+
+## 2.6 Academic standing requirement
+
+The applicant must have passed the preceding academic year, or an equivalent academic period, with a minimum grade of 50 percent.
+
+A grade of exactly 50 percent satisfies this condition. A grade below 50 percent does not satisfy the stated academic threshold.
+
+The dataset does not define alternative grading systems, grade-point conversions, failed subjects with supplementary examinations, or special treatment for students in their first academic year.
+
+Applicants must submit mark sheets or grade reports for their most recently completed academic year.
+
+## 2.7 Concurrent benefit restriction
+
+The applicant must not be receiving an equivalent education grant from another fictional program during the same period.
+
+The restriction concerns an equivalent education grant, not every form of financial support a student might receive. However, this dataset does not define which other grants count as equivalent.
+
+Applicants must submit a self-declaration stating that they are not receiving a concurrent grant from another scheme.
+
+The dataset does not specify the penalty, appeal process, or recovery procedure if an applicant is later found to have received an equivalent concurrent grant.
+
+## 2.8 First-generation learner preference
+
+Applicants who are the first people in their immediate family to pursue higher education receive priority consideration.
+
+This preference is not a strict eligibility requirement. An applicant who is not a first-generation learner may still qualify if all mandatory eligibility conditions are met.
+
+The dataset does not define the exact meaning of immediate family, the evidence needed to establish first-generation status, or the number of priority points awarded.
+
+Priority consideration must not be represented as a guarantee of approval.
+
+# 3. BENEFITS AND FINANCIAL LIMITS
+
+## 3.1 Tuition fee waiver
+
+The fictional program covers up to 80 percent of annual tuition fees, subject to a maximum of 40,000 FCU per academic year.
+
+The amount is constrained by both the percentage limit and the annual cap.
+
+For example:
+- If annual tuition fees are 20,000 FCU, 80 percent is 16,000 FCU. The maximum calculated assistance is 16,000 FCU.
+- If annual tuition fees are 50,000 FCU, 80 percent is 40,000 FCU. The maximum calculated assistance is 40,000 FCU.
+- If annual tuition fees are 60,000 FCU, 80 percent is 48,000 FCU, but the annual cap limits assistance to 40,000 FCU.
+
+The tuition benefit can be expressed as:
+
+Tuition assistance = the smaller of 80% of annual tuition fees or 40,000 FCU.
+
+The dataset does not state whether any remaining tuition balance can be covered through other EFGP benefits.
+
+Tuition fee payments are made directly to the educational institution on behalf of the approved beneficiary.
+
+## 3.2 Monthly living stipend
+
+An approved beneficiary receives a fictional monthly living allowance of 3,000 FCU.
+
+The stipend is disbursed directly to the student's registered bank account.
+
+If paid for 12 months, the nominal annual total would be 36,000 FCU. However, the dataset does not specify the precise annual payment calendar, whether every beneficiary receives 12 payments, or whether payments are suspended during academic breaks.
+
+Do not assume a guaranteed annual total unless the payment period is established.
+
+## 3.3 Study material allowance
+
+The program provides a one-time annual study material allowance of 5,000 FCU.
+
+The allowance is intended for educational materials such as textbooks, laboratory supplies, and digital learning subscriptions.
+
+The dataset describes this benefit as an annual grant. It does not specify reimbursement procedures, required receipts, permitted vendors, or whether unused funds can be carried forward.
+
+## 3.4 Examination fee reimbursement
+
+The program fully reimburses fees for up to two national or university examinations per academic year.
+
+The stated limit is two examinations per academic year. The dataset does not establish reimbursement for a third examination, entrance coaching, private tutoring, late fees, travel expenses, or unrelated certification examinations.
+
+The exact submission process for examination fee receipts is not specified.
+
+## 3.5 Mentorship access
+
+Approved beneficiaries receive access to the fictional EFGP Mentorship Network.
+
+The network connects beneficiaries with voluntary academic mentors. Its stated purpose is to provide academic guidance and support.
+
+The dataset does not promise a particular mentor, a minimum number of sessions, job placement, internship placement, or guaranteed academic improvement.
+
+## 3.6 Internet subsidy
+
+The program provides a fictional monthly broadband subsidy of 500 FCU to support online learning.
+
+The dataset does not specify eligible internet service providers, whether mobile data is covered, what receipts are required, or whether the subsidy can be combined with another internet benefit.
+
+## 3.7 Hardware exclusion
+
+EFGP does not provide laptops, smartphones, tablets, computers, or other physical hardware devices.
+
+The student is responsible for procuring any hardware needed for educational activities.
+
+The study material allowance and internet subsidy must not be interpreted as a promise of a free laptop or smartphone.
+
+If an applicant asks whether EFGP supplies a laptop, the correct answer from this dataset is no.
+
+## 3.8 Benefit summary
+
+| Benefit | Fictional amount or limit | Stated payment method |
+|---|---|---|
+| Tuition assistance | Up to 80%, capped at 40,000 FCU per academic year | Directly to institution |
+| Living stipend | 3,000 FCU per month | Registered bank account |
+| Study materials | 5,000 FCU per year, one-time annual grant | Disbursement method not specified |
+| Examination fees | Up to two examinations per academic year, fully reimbursed | Detailed process not specified |
+| Mentorship | Access to voluntary academic mentors | Not a cash payment |
+| Internet subsidy | 500 FCU per month | Detailed payment method not specified |
+| Laptop or smartphone | Not provided | Not applicable |
+
+# 4. REQUIRED DOCUMENTS
+
+All listed documents must be submitted as self-attested copies unless otherwise stated. Original documents may be requested for verification later.
+
+## 4.1 Completed application form
+
+Applicants must complete Form EFGP-2024-A through the fictional application portal.
+
+The dataset does not provide a downloadable form or a real website.
+
+## 4.2 Proof of age
+
+Acceptable examples are:
+- Birth certificate.
+- Valid national identity card issued by the fictional government of Exemplia.
+
+The document must support verification of the applicant's age.
+
+## 4.3 Proof of enrollment
+
+Applicants must submit an official letter or certificate from their accredited institution confirming current enrollment and course details.
+
+The dataset does not provide a standard institutional certificate template.
+
+## 4.4 Income certificate
+
+Applicants must submit a family income certificate issued by a recognized local authority in Exemplia within the previous six months.
+
+The document must support verification of the combined annual gross household income.
+
+## 4.5 Academic transcripts
+
+Applicants must provide mark sheets or grade reports for their most recently completed academic year.
+
+These documents are used to assess whether the applicant meets the minimum 50 percent academic requirement.
+
+## 4.6 Bank account details
+
+Applicants must submit a cancelled cheque or bank passbook copy showing:
+- Applicant's name.
+- Account number.
+- IFSC or equivalent banking code.
+
+The registered account is used for direct payment of the monthly stipend.
+
+The dataset does not state whether joint accounts or accounts belonging to another person are permitted.
+
+## 4.7 Citizenship proof
+
+Applicants must provide a photocopy of their Exemplia citizenship document or passport.
+
+The dataset does not establish alternative documentation for applicants who cannot provide either document.
+
+## 4.8 Passport-size photographs
+
+Two recent colour passport-size photographs are required.
+
+The dataset does not specify exact dimensions, background colour, or digital image requirements.
+
+## 4.9 Declaration form
+
+Applicants must submit Form EFGP-DEC-2024, a self-declaration that they are not receiving an equivalent grant from another scheme during the same period.
+
+## 4.10 File format and size
+
+Uploaded document files must be in PDF or JPEG format. Each file must not exceed 2 MB.
+
+The dataset does not specify whether multiple pages must be combined into a single PDF or whether compressed files are accepted.
+
+## 4.11 Original document verification
+
+Original documents may be requested for verification at a later stage.
+
+The applicant should not assume that uploading copies eliminates the possibility of a later verification request.
+
+The dataset does not specify the consequences of missing an original-document verification appointment.
+
+# 5. APPLICATION PROCEDURE
+
+## 5.1 Step 1 — Register on the portal
+
+The applicant visits the fictional portal, efgp.exemplia.test, and creates an account using a valid email address.
+
+The applicant provides basic personal information and receives a unique Applicant Reference Number, abbreviated as ARN.
+
+The ARN is used to identify the applicant during subsequent steps in the fictional process.
+
+The portal is fictional and does not exist as a real application service.
+
+## 5.2 Step 2 — Complete the application form
+
+The applicant logs in using the ARN and completes Form EFGP-2024-A online.
+
+The form requires personal, academic, and financial information.
+
+The applicant is expected to provide accurate information. The dataset does not specify an edit-after-submission procedure.
+
+## 5.3 Step 3 — Upload documents
+
+The applicant uploads scanned or photographed copies of all required documents.
+
+Each file must be in PDF or JPEG format and must not exceed 2 MB.
+
+Applicants should ensure that documents are readable and contain the information required for verification.
+
+The dataset does not define a separate document resubmission workflow for illegible files.
+
+## 5.4 Step 4 — Submit and acknowledge
+
+After completing the form and uploading the documents, the applicant reviews the submission and selects Submit.
+
+An acknowledgement email is then described as being sent to the registered email address. It contains a submission timestamp and confirmation code.
+
+An acknowledgement confirms receipt in the fictional process. It is not the same as a grant approval.
+
+## 5.5 Step 5 — Verification
+
+The fictional EFGP Secretariat reviews submitted applications within 30 working days.
+
+During verification, applicants may be contacted for additional information or document verification.
+
+The dataset does not define the official working-day calendar, public holiday treatment, or whether the review period pauses while an applicant supplies additional information.
+
+## 5.6 Step 6 — Decision notification
+
+Applicants are notified of the decision through email and the fictional portal.
+
+Approved applicants receive a Grant Approval Letter specifying the benefit components and disbursement schedule.
+
+The dataset does not define a detailed rejection notice template or a formal appeal deadline.
+
+## 5.7 Step 7 — Disbursement
+
+After a Grant Approval Letter is issued, the monthly stipend and study material allowance are described as being disbursed directly to the registered bank account.
+
+Tuition fee payments are made directly to the institution on the beneficiary's behalf.
+
+The dataset does not define the exact date of the first payment, the payment schedule for examination reimbursements, or the payment mechanism for the internet subsidy.
+
+## 5.8 Step 8 — Annual renewal
+
+The fictional grant is renewable annually.
+
+To renew, the beneficiary must submit:
+- An updated income certificate.
+- Current proof of enrollment.
+- Academic transcripts showing satisfactory progress.
+
+The documents must be submitted before the renewal deadline.
+
+The exact renewal deadline, renewal portal procedure, and definition of satisfactory progress are not specified in this dataset.
+
+# 6. VERIFICATION, APPROVAL, AND REJECTION
+
+## 6.1 Application acknowledgement versus approval
+
+An acknowledgement email confirms that the application has been submitted in the fictional workflow. It does not establish eligibility, guarantee approval, or confirm payment.
+
+A Grant Approval Letter is the stated document issued to approved applicants.
+
+## 6.2 Verification requests
+
+The fictional Secretariat may contact applicants for additional information or document verification during the review period.
+
+The dataset does not specify a universal response deadline for these requests.
+
+## 6.3 Conditions that do not meet stated eligibility rules
+
+An application does not satisfy the stated eligibility criteria if the applicant:
+- Is younger than 17 or older than 30 at submission.
+- Has combined annual gross household income above 250,000 FCU.
+- Is not a citizen of Exemplia.
+- Has not passed the preceding academic year or equivalent with at least 50 percent.
+- Is receiving an equivalent education grant during the same period.
+- Does not meet the required enrollment condition.
+
+These are assessments against the fictional rules only. The dataset does not specify a complete administrative rejection procedure.
+
+## 6.4 Missing or unclear information
+
+If a required fact is not stated in this knowledge base, the RAG assistant must say that the fictional dataset does not specify it.
+
+For example, the dataset does not provide an appeal deadline, an exact renewal date, a special age exemption, or a complete list of grants considered equivalent.
+
+The assistant must not invent these rules.
+
+# 7. RENEWAL AND CONTINUING SUPPORT
+
+## 7.1 Annual renewal requirement
+
+Renewal is not described as automatic. Beneficiaries must submit updated income evidence, current enrollment proof, and academic transcripts before the renewal deadline.
+
+## 7.2 Academic progress
+
+The renewal process requires transcripts showing satisfactory progress.
+
+The dataset does not define satisfactory progress numerically for renewal. The initial eligibility requirement of passing the preceding academic year with at least 50 percent must not automatically be treated as the complete renewal standard unless additional rules confirm that interpretation.
+
+## 7.3 Updated household income
+
+Renewal requires an updated income certificate. The original application requires an income certificate issued within the previous six months.
+
+The dataset does not explicitly state a separate validity period for the renewal certificate, so no different period should be inferred.
+
+## 7.4 Continuation of individual benefits
+
+The dataset does not specify whether each benefit continues automatically during renewal review or whether a beneficiary can retain some benefits while another is suspended.
+
+Such questions should be identified as unspecified.
+
+# 8. CONTACT AND SUPPORT
+
+All contact information below is fictional and must never be represented as a real support channel.
+
+- Fictional portal: efgp.exemplia.test
+- Fictional email: support@efgp.exemplia.test
+- Fictional helpline: +00-1234-567890
+- Fictional office hours: Monday to Friday, 9:00 AM to 5:00 PM, Exemplia Standard Time
+
+The portal does not exist as a real service, the email address is not a verified support address, and the helpline is not a real telephone number.
+
+No actual government department, office, or official is identified by this dataset.
+
+# 9. FREQUENTLY ASKED QUESTIONS
+
+## Q1. Is EFGP a real government scheme?
+
+No. EFGP is entirely fictional and exists only to test a RAG pipeline.
+
+## Q2. Who can apply under the fictional eligibility rules?
+
+A person aged 17–30 who meets the enrollment, household income, Exemplia citizenship, academic standing, and concurrent-benefit requirements may satisfy the stated eligibility rules.
+
+## Q3. What is the maximum household income?
+
+The combined annual gross household income must not exceed 250,000 FCU.
+
+## Q4. Is an income of exactly 250,000 FCU permitted?
+
+Yes. The stated threshold is inclusive, so exactly 250,000 FCU meets the income condition.
+
+## Q5. What is the minimum academic percentage?
+
+The applicant must have passed the preceding academic year or equivalent with at least 50 percent.
+
+## Q6. Can a student receive the grant if they are not a first-generation learner?
+
+Yes, provided they satisfy all mandatory eligibility conditions. First-generation learner status is a preference, not a mandatory condition.
+
+## Q7. How much tuition assistance is provided?
+
+Up to 80 percent of annual tuition fees, subject to a maximum of 40,000 FCU per academic year.
+
+## Q8. How much is the monthly stipend?
+
+The fictional monthly living stipend is 3,000 FCU.
+
+## Q9. How much is the study material allowance?
+
+The program describes a one-time annual study material grant of 5,000 FCU.
+
+## Q10. Does the program provide a laptop?
+
+No. The dataset explicitly excludes laptops, smartphones, and other physical hardware.
+
+## Q11. How many examinations are covered?
+
+Fees for up to two national or university examinations per academic year are fully reimbursed.
+
+## Q12. How long does verification take?
+
+The stated review period is within 30 working days. The dataset does not define all calendar and delay rules.
+
+## Q13. What documents are required for renewal?
+
+An updated income certificate, current enrollment proof, and academic transcripts showing satisfactory progress.
+
+## Q14. Does acknowledgement mean the application is approved?
+
+No. Acknowledgement confirms submission in the fictional workflow, not approval.
+
+## Q15. Can an applicant receive an equivalent grant from another program at the same time?
+
+No. The fictional eligibility rules prohibit receiving an equivalent education grant during the same period.
+
+## Q16. Is the fictional portal available for applications?
+
+No. The portal is invented for testing and does not exist as a real application service.
+
+## Q17. Is there an appeal process for rejected applications?
+
+The dataset does not specify an appeal process or deadline.
+
+## Q18. Can a postgraduate student apply?
+
+The stated eligible enrollment categories are undergraduate degree programs and government-recognized vocational training courses. The dataset does not establish eligibility for postgraduate studies.
+
+# 10. RULES FOR THE RAG ASSISTANT
+
+The assistant answering questions from this dataset should follow these rules:
+
+1. Treat every scheme detail as fictional.
+2. Do not describe EFGP as a real government program.
+3. Answer from the retrieved information and distinguish explicit rules from missing information.
+4. Preserve numerical limits, units, time periods, and inclusive thresholds accurately.
+5. Do not turn a preference into a mandatory condition.
+6. Do not interpret application acknowledgement as approval.
+7. Do not promise a benefit that the dataset does not state.
+8. Do not claim that a laptop or smartphone is provided.
+9. Do not invent exceptions, appeal procedures, deadlines, authorities, or contact information.
+10. When a question cannot be answered from the dataset, say that the available fictional documentation does not specify the answer.
+11. For eligibility questions, assess each mandatory condition separately when sufficient applicant information is supplied.
+12. If important applicant information is missing, identify the missing facts instead of making an unsupported final eligibility determination.
+
+# 11. DATASET LIMITATIONS
+
+This dataset does not specify:
+- A real-world government authority or legal basis.
+- Actual funding availability or an application opening date.
+- The exact annual renewal deadline.
+- A complete appeal and grievance process.
+- Special eligibility exemptions.
+- Detailed rules for equivalent grants.
+- All possible household income calculation methods.
+- A complete payment calendar.
+- A detailed refund or recovery process.
+- A real support portal, email address, or telephone number.
+
+The absence of a rule is not evidence that a particular exception or entitlement exists.
+
+# END OF FICTIONAL TEST DATA
+
+This document is a synthetic test corpus created exclusively for software development, retrieval testing, and answer-quality evaluation. It is not real government guidance.
