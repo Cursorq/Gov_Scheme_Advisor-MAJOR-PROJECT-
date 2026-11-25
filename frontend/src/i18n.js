@@ -3,13 +3,42 @@ import { initReactI18next } from 'react-i18next'
 
 const resources = {
   en: { translation: {
-    brand: 'Sahaay', tagline: 'Government Scheme Advisor', private: 'Your details stay private', language: 'Language', eyebrow: 'A clearer path to support', headline: 'Find support that', headlineAccent: 'fits your life.', intro: 'Tell us a little about yourself. We’ll help you explore government schemes you may be eligible for.', finderLabel: 'Scheme finder', tellUs: 'Tell us about yourself', tellHelp: 'A sentence or two is enough to get started.', situationLabel: 'Describe your situation', placeholder: 'For example: I am a 22-year-old student from Uttarakhand. My family income is around ₹2 lakh a year and I need help with my studies.', inputHint: 'You can write in English or Hindi', findButton: 'Find schemes', tryExample: 'Not sure what to write? Try:', examples: ['I am a student from Uttarakhand', 'I am a woman starting a small business', 'My family income is below ₹2 lakh'], profileTitle: 'Here’s what we understood', profileHelp: 'Please check these details before continuing.', student: 'Student', uttarakhand: 'Uttarakhand', needsMore: 'Education support', editDetails: 'Edit my details', howWorks: 'HOW IT WORKS', guideHeadline: 'A little about you goes a long way.', guideText: 'Share what matters to you. We’ll help make sense of the options.', stepOne: 'Describe your situation in your own words', stepTwo: 'Check the details we picked up', stepThree: 'Explore schemes and eligibility clearly', sourceNote: 'Recommendations include links to official scheme information.', featuresLabel: 'What you can expect', featureOne: 'Made for you', featureOneText: 'Relevant options based on your details', featureTwo: 'Clear eligibility', featureTwoText: 'See why a scheme may fit', featureThree: 'Official sources', featureThreeText: 'Know where to apply and learn more', footer: 'A student project to make public support easier to find.', footerNote: 'Information is for guidance. Check official scheme rules before applying.'
+    brand: 'Sahaay', tagline: 'Government Scheme Advisor', prototype: 'Student project demo', language: 'Language',
+    eyebrow: 'Government scheme discovery', headline: 'Find schemes that may support you',
+    intro: 'Share a little about your situation. We’ll help you understand which government schemes may be relevant to you.',
+    tellUs: 'Tell us about yourself', tellHelp: 'Use your own words. You can include your age, state, education, or family income.',
+    situationLabel: 'Your situation', placeholder: 'For example: I am a 22-year-old student from Uttarakhand. My family income is around ₹2 lakh a year and I need help with my studies.',
+    inputHint: 'Write in English or Hindi', findButton: 'Check schemes', tryExample: 'Or start with an example',
+    examples: ['I am a student from Uttarakhand', 'I want to start a small business', 'My family income is below ₹2 lakh'],
+    demoTitle: 'Input received — demo preview', demoText: 'In the complete system, your details will be extracted for you to review before scheme matching.',
+    howWorks: 'How it works', guideText: 'A simple guided process keeps you in control.',
+    stepOne: 'Describe your situation in your own words', stepTwo: 'Review the details the system identifies', stepThree: 'Explore matching schemes and eligibility',
+    sourceNote: 'Scheme information should always be checked with official sources.',
+    serviceTitle: 'Guidance for citizens', serviceText: 'Recommendations are for information only. Confirm eligibility and application details on the official scheme website.',
+    footer: 'A student project to make public support easier to find.', footerNote: 'This prototype is not an official government website.'
   } },
   hi: { translation: {
-    brand: 'सहाय', tagline: 'सरकारी योजना सलाहकार', private: 'आपकी जानकारी निजी रहती है', language: 'भाषा', eyebrow: 'सहायता पाने का आसान रास्ता', headline: 'अपने लिए सही', headlineAccent: 'सहायता खोजें।', intro: 'अपने बारे में थोड़ा बताएं। हम उन सरकारी योजनाओं को खोजने में मदद करेंगे जिनके लिए आप पात्र हो सकते हैं।', finderLabel: 'योजना खोजें', tellUs: 'अपने बारे में बताएं', tellHelp: 'शुरू करने के लिए एक-दो वाक्य काफी हैं।', situationLabel: 'अपनी स्थिति बताएं', placeholder: 'उदाहरण: मैं उत्तराखंड का 22 साल का विद्यार्थी हूँ। मेरे परिवार की सालाना आय लगभग ₹2 लाख है और मुझे पढ़ाई के लिए सहायता चाहिए।', inputHint: 'आप हिन्दी या अंग्रेज़ी में लिख सकते हैं', findButton: 'योजनाएं खोजें', tryExample: 'क्या लिखें समझ नहीं आ रहा? यह आज़माएं:', examples: ['मैं उत्तराखंड का विद्यार्थी हूँ', 'मैं छोटा व्यवसाय शुरू करने वाली महिला हूँ', 'मेरे परिवार की आय ₹2 लाख से कम है'], profileTitle: 'हमने यह समझा है', profileHelp: 'आगे बढ़ने से पहले इन जानकारियों को जांचें।', student: 'विद्यार्थी', uttarakhand: 'उत्तराखंड', needsMore: 'शिक्षा सहायता', editDetails: 'जानकारी बदलें', howWorks: 'यह कैसे काम करता है', guideHeadline: 'आपके बारे में थोड़ी जानकारी काफी है।', guideText: 'अपनी ज़रूरत बताएं। हम उपलब्ध विकल्प समझने में मदद करेंगे।', stepOne: 'अपनी स्थिति अपने शब्दों में बताएं', stepTwo: 'हमने जो जानकारी समझी है उसे जांचें', stepThree: 'योजनाएं और पात्रता साफ़ तौर पर देखें', sourceNote: 'सुझावों में आधिकारिक योजना जानकारी के लिंक होंगे।', featuresLabel: 'आपको क्या मिलेगा', featureOne: 'आपके लिए उपयुक्त', featureOneText: 'आपकी जानकारी के आधार पर विकल्प', featureTwo: 'पात्रता साफ़-साफ़', featureTwoText: 'जानें योजना आपके लिए क्यों सही है', featureThree: 'आधिकारिक स्रोत', featureThreeText: 'आवेदन और अधिक जानकारी पाएं', footer: 'सरकारी सहायता खोजना आसान बनाने की एक विद्यार्थी परियोजना।', footerNote: 'यह जानकारी मार्गदर्शन के लिए है। आवेदन से पहले आधिकारिक नियम देखें।'
+    brand: 'सहाय', tagline: 'सरकारी योजना सलाहकार', prototype: 'विद्यार्थी परियोजना डेमो', language: 'भाषा',
+    eyebrow: 'सरकारी योजनाओं की खोज', headline: 'अपने लिए उपयोगी योजनाएं खोजें',
+    intro: 'अपनी स्थिति के बारे में थोड़ा बताएं। हम आपके लिए उपयोगी सरकारी योजनाओं को समझने में मदद करेंगे।',
+    tellUs: 'अपने बारे में बताएं', tellHelp: 'अपने शब्दों में लिखें। उम्र, राज्य, शिक्षा या परिवार की आय बता सकते हैं।',
+    situationLabel: 'आपकी स्थिति', placeholder: 'उदाहरण: मैं उत्तराखंड का 22 साल का विद्यार्थी हूँ। मेरे परिवार की सालाना आय लगभग ₹2 लाख है और मुझे पढ़ाई के लिए सहायता चाहिए।',
+    inputHint: 'हिन्दी या अंग्रेज़ी में लिखें', findButton: 'योजनाएं देखें', tryExample: 'या उदाहरण से शुरू करें',
+    examples: ['मैं उत्तराखंड का विद्यार्थी हूँ', 'मैं छोटा व्यवसाय शुरू करना चाहता हूँ', 'मेरे परिवार की आय ₹2 लाख से कम है'],
+    demoTitle: 'जानकारी मिली — डेमो पूर्वावलोकन', demoText: 'पूरी प्रणाली में, योजना खोजने से पहले आपकी जानकारी पहचानकर जांच के लिए दिखाई जाएगी।',
+    howWorks: 'यह कैसे काम करता है', guideText: 'आसान चरणों में आगे बढ़ें और प्रक्रिया पर अपना नियंत्रण रखें।',
+    stepOne: 'अपनी स्थिति अपने शब्दों में बताएं', stepTwo: 'पहचानी गई जानकारी की जांच करें', stepThree: 'मिलती-जुलती योजनाएं और पात्रता देखें',
+    sourceNote: 'योजना की जानकारी आधिकारिक स्रोतों से अवश्य जांचें।',
+    serviceTitle: 'नागरिकों के लिए मार्गदर्शन', serviceText: 'यह सुझाव केवल जानकारी के लिए हैं। पात्रता और आवेदन की जानकारी आधिकारिक योजना वेबसाइट पर जांचें।',
+    footer: 'सरकारी सहायता खोजना आसान बनाने की एक विद्यार्थी परियोजना।', footerNote: 'यह प्रोटोटाइप आधिकारिक सरकारी वेबसाइट नहीं है।'
   } },
 }
 
-i18n.use(initReactI18next).init({ resources, lng: 'en', fallbackLng: 'en', interpolation: { escapeValue: false } })
+i18n.use(initReactI18next).init({
+  resources,
+  lng: 'en',
+  fallbackLng: 'en',
+  interpolation: { escapeValue: false },
+})
 
 export default i18n
