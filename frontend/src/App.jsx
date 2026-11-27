@@ -2,33 +2,12 @@ import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Navigate, Route, Routes } from 'react-router-dom'
 import SiteHeader from './components/SiteHeader.jsx'
-import PageIntro from './components/PageIntro.jsx'
-import SchemeFinder from './features/scheme-finder/SchemeFinder.jsx'
-import HowItWorks from './components/HowItWorks.jsx'
 import SiteFooter from './components/SiteFooter.jsx'
-import LoginPage from './features/auth/LoginPage.jsx'
-import SignupPage from './features/auth/SignupPage.jsx'
-
-function SchemeHome() {
-  const { t } = useTranslation()
-
-  return (
-    <main className="page-content" id="main-content">
-      <PageIntro />
-      <div className="content-grid">
-        <SchemeFinder />
-        <HowItWorks />
-      </div>
-      <section className="service-note" aria-label={t('serviceTitle')}>
-        <span className="service-note-icon" aria-hidden="true">i</span>
-        <p><strong>{t('serviceTitle')}</strong><span>{t('serviceText')}</span></p>
-      </section>
-    </main>
-  )
-}
+import AdvisorPage from './features/advisor/AdvisorPage.jsx'
+import SchemeDetailPage from './features/schemes/SchemeDetailPage.jsx'
 
 function App() {
-  const { i18n } = useTranslation()
+  const { i18n, t } = useTranslation()
 
   useEffect(() => {
     document.documentElement.lang = i18n.language === 'hi' ? 'hi' : 'en'
@@ -36,11 +15,11 @@ function App() {
 
   return (
     <div className="app-shell">
+      <a className="skip-link" href="#main-content">{t('skipToMain')}</a>
       <SiteHeader />
       <Routes>
-        <Route path="/" element={<SchemeHome />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/signup" element={<SignupPage />} />
+        <Route path="/" element={<AdvisorPage />} />
+        <Route path="/schemes/:schemeId" element={<SchemeDetailPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <SiteFooter />
