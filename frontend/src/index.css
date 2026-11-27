@@ -79,10 +79,29 @@ h1, h2, p { margin: 0; }
 .service-note strong { color: #2c4657; font-size: 12px; }
 .service-note p span { margin-top: 3px; color: #52636d; font-size: 12px; line-height: 1.5; }
 .site-footer { display: flex; justify-content: space-between; gap: 20px; padding: 15px 0 22px; border-top: 1px solid #dfe5e8; color: #65727a; font-size: 11px; line-height: 1.5; }
+.header-link { color: #173f5f; font-size: 13px; font-weight: 700; text-decoration: none; }
+.header-link:hover { text-decoration: underline; }
+.login-page { width: min(1040px, calc(100% - 48px)); min-height: calc(100vh - 151px); display: grid; place-items: start center; margin: 0 auto; padding: 66px 0 50px; }
+.login-card { width: min(100%, 440px); padding: 27px; border: 1px solid #d9e0e4; border-radius: 5px; background: #fff; }
+.login-heading { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 24px; }
+.login-heading h1 { color: #173f5f; font-size: 24px; line-height: 1.3; }
+.login-heading p { margin-top: 5px; color: #65727a; font-size: 13px; line-height: 1.5; }
+.login-form { display: grid; gap: 8px; }
+.login-form label { margin-top: 8px; color: #33434c; font-size: 13px; font-weight: 700; }
+.login-form input { width: 100%; min-height: 43px; padding: 10px 12px; border: 1px solid #aebbc2; border-radius: 4px; background: #fff; color: #25343d; font-size: 14px; }
+.login-form input::placeholder { color: #78858c; }
+.login-submit { width: 100%; margin-top: 13px; }
+.login-submit span { float: right; }
+.login-notice { margin-top: 16px; padding: 11px 12px; border: 1px solid #d9c99e; border-left: 4px solid #bd832c; border-radius: 3px; background: #fbf8ef; color: #5b4a2f; font-size: 12px; line-height: 1.5; }
+.auth-switch { margin-top: 16px; color: #53616a; font-size: 12px; text-align: center; }
+.auth-switch a { color: #173f5f; font-weight: 700; text-decoration: underline; text-underline-offset: 2px; }
+.password-hint { margin-top: -2px; color: #65727a; font-size: 11px; }
+.login-help { margin-top: 18px; padding-top: 15px; border-top: 1px solid #e4e9ec; color: #65727a; font-size: 11px; line-height: 1.55; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
 
 @media (max-width: 720px) {
   .site-header, .page-content, .site-footer { width: min(100% - 32px, 560px); }
+  .login-page { width: min(100% - 32px, 560px); min-height: calc(100vh - 143px); padding-top: 42px; }
   .site-header { min-height: 68px; }
   .content-grid { grid-template-columns: 1fr; gap: 12px; }
   .page-intro { padding: 34px 0 23px; }
@@ -92,6 +111,8 @@ h1, h2, p { margin: 0; }
 
 @media (max-width: 420px) {
   .site-header, .page-content, .site-footer { width: calc(100% - 24px); }
+  .login-page { width: calc(100% - 24px); padding-top: 30px; }
+  .login-card { padding: 19px; }
   .prototype-label { max-width: 95px; font-size: 10px; }
   .header-actions { gap: 9px; }
   .brand { gap: 8px; }
