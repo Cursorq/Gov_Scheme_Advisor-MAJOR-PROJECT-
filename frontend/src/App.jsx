@@ -7,6 +7,7 @@ import SchemeFinder from './features/scheme-finder/SchemeFinder.jsx'
 import HowItWorks from './components/HowItWorks.jsx'
 import SiteFooter from './components/SiteFooter.jsx'
 import LoginPage from './features/auth/LoginPage.jsx'
+import SignupPage from './features/auth/SignupPage.jsx'
 
 function SchemeHome() {
   const { t } = useTranslation()
@@ -39,6 +40,7 @@ function App() {
       <Routes>
         <Route path="/" element={<SchemeHome />} />
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/signup" element={<SignupPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <SiteFooter />

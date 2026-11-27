@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
 
 function LoginPage() {
   const { t } = useTranslation()
@@ -25,6 +26,7 @@ function LoginPage() {
           <button className="primary-button login-submit" type="submit">{t('loginButton')} <span aria-hidden="true">→</span></button>
         </form>
         {notice && <div className="login-notice" role="status" aria-live="polite">{t('loginDemoNotice')}</div>}
+        <p className="auth-switch">{t('noAccount')} <Link to="/signup">{t('signupLink')}</Link></p>
         <p className="login-help">{t('loginHelp')}</p>
       </section>
     </main>
