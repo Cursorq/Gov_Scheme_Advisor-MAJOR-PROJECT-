@@ -1,16 +1,19 @@
 import { useTranslation } from 'react-i18next'
+import { Link, useLocation } from 'react-router-dom'
 
 function SiteHeader() {
   const { t, i18n } = useTranslation()
+  const isLoginPage = useLocation().pathname === '/login'
 
   return (
     <header className="site-header">
-      <a className="brand" href="#main-content" aria-label={t('brand')}>
+      <Link className="brand" to="/" aria-label={t('brand')}>
         <span className="brand-mark" aria-hidden="true">स</span>
         <span className="brand-copy"><strong>{t('brand')}</strong><small>{t('tagline')}</small></span>
-      </a>
+      </Link>
       <div className="header-actions">
         <span className="prototype-label"><span className="prototype-dot" />{t('prototype')}</span>
+        <Link className="header-link" to={isLoginPage ? '/' : '/login'}>{isLoginPage ? t('backToFinder') : t('loginLink')}</Link>
         <label className="sr-only" htmlFor="language">{t('language')}</label>
         <select id="language" value={i18n.language} onChange={(event) => i18n.changeLanguage(event.target.value)}>
           <option value="en">English</option>

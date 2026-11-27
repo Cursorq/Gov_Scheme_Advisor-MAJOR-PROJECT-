@@ -4,6 +4,10 @@ import { initReactI18next } from 'react-i18next'
 const resources = {
   en: { translation: {
     brand: 'Sahaay', tagline: 'Government Scheme Advisor', prototype: 'Student project demo', language: 'Language',
+    loginLink: 'Sign in', backToFinder: 'Back to schemes', loginTitle: 'Sign in', loginIntro: 'Sign in to continue to your saved scheme search.',
+    emailLabel: 'Email address', emailPlaceholder: 'name@example.com', passwordLabel: 'Password', passwordPlaceholder: 'Enter your password',
+    loginButton: 'Sign in', loginDemoNotice: 'Sign-in is a design preview and is not connected to an account service yet.',
+    loginHelp: 'This student project demo does not store or verify account details.',
     eyebrow: 'Government scheme discovery', headline: 'Find schemes that may support you',
     intro: 'Share a little about your situation. We’ll help you understand which government schemes may be relevant to you.',
     tellUs: 'Tell us about yourself', tellHelp: 'Use your own words. You can include your age, state, education, or family income.',
@@ -19,6 +23,10 @@ const resources = {
   } },
   hi: { translation: {
     brand: 'सहाय', tagline: 'सरकारी योजना सलाहकार', prototype: 'विद्यार्थी परियोजना डेमो', language: 'भाषा',
+    loginLink: 'साइन इन', backToFinder: 'योजनाओं पर वापस जाएं', loginTitle: 'साइन इन करें', loginIntro: 'अपनी सेव की गई योजना खोज जारी रखने के लिए साइन इन करें।',
+    emailLabel: 'ईमेल पता', emailPlaceholder: 'name@example.com', passwordLabel: 'पासवर्ड', passwordPlaceholder: 'अपना पासवर्ड लिखें',
+    loginButton: 'साइन इन', loginDemoNotice: 'यह साइन-इन केवल डिजाइन पूर्वावलोकन है और अभी किसी खाता सेवा से जुड़ा नहीं है।',
+    loginHelp: 'यह विद्यार्थी परियोजना डेमो खाता जानकारी सेव या सत्यापित नहीं करता।',
     eyebrow: 'सरकारी योजनाओं की खोज', headline: 'अपने लिए उपयोगी योजनाएं खोजें',
     intro: 'अपनी स्थिति के बारे में थोड़ा बताएं। हम आपके लिए उपयोगी सरकारी योजनाओं को समझने में मदद करेंगे।',
     tellUs: 'अपने बारे में बताएं', tellHelp: 'अपने शब्दों में लिखें। उम्र, राज्य, शिक्षा या परिवार की आय बता सकते हैं।',

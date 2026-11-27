@@ -14,6 +14,8 @@ frontend/
 │   │   ├── SiteFooter.jsx
 │   │   └── SiteHeader.jsx
 │   ├── features/
+│   │   ├── auth/                   Sign-in page prototype
+│   │   │   └── LoginPage.jsx
 │   │   └── scheme-finder/          Scheme input and demo interaction
 │   │       └── SchemeFinder.jsx
 │   ├── App.jsx                     Page layout and language attribute
@@ -35,3 +37,5 @@ npm run dev
 ```
 
 The language menu switches between English and Hindi. Submitting the description shows a demo message; attribute extraction, eligibility matching, and scheme recommendations will be connected when the backend API is ready.
+
+The `/login` page is a visual prototype only. Authentication and account storage are not connected yet.
